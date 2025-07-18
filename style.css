@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background-image: url('2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px #00ffe0;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.button-group button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #00ffe0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #00bba5;
+}
+
+.animation-area {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #0ff;
+  animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); color: #fff; }
+}
+
+.stop-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.stop-btn:hover {
+  background-color: #ff1a1a;
+}
